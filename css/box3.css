@@ -1,0 +1,57 @@
+.yered{
+    display: flex;
+    margin: 10px 10px;
+    gap:20px;
+
+        & .yellow{
+            width: 15%;
+            height: 80px;
+            background-color: yellow;
+            border: 2px solid black;
+        }
+
+        & .orangered{
+            width: 85%;
+            height: 80px;
+            background-color: orangered;
+            border: solid black;
+        }
+}
+
+.gss{
+    display: flex;
+    margin: 10px 10px;
+
+        & .green{
+            width: 15%;
+            height: 400px;
+            background-color: rgb(129, 234, 102);
+            border: 2px solid black;
+            margin-right: 20px;
+        }
+
+        & .silver{
+            width: 70%;
+            height: 400px;
+            background-color: silver;
+            border: 2px solid black;
+        }
+
+        & .skyblue{
+            width: 15%;
+            height: 400px;
+            background-color: skyblue;
+            border: 2px solid black;
+            margin-left: 15px;
+        }
+}
+
+.blue{
+    width: 98%;
+    margin: 20px 10px 0;
+    height: 100px;
+    background-color: blue;
+    border: 2px solid black;
+    /* margin-top: 20px; */
+}
+

@@ -1,0 +1,33 @@
+div{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+}
+
+.box-1{
+    background-image: url("../images/burung1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-2{
+    background-image:  url("../images/burung3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-3{
+    background-image:  url("../images/burung4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-4{
+    background-image:  url("../images/burung6.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.center{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(239, 235, 200);
+}
